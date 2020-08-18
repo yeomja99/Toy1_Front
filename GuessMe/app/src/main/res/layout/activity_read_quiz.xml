@@ -42,4 +42,11 @@
 
     </androidx.recyclerview.widget.RecyclerView>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BDCAFF"
+        android:layout_gravity="center"
+        android:text="submit"/>
+
 </LinearLayout>
