@@ -26,18 +26,18 @@ class ReadRankActivity : AppCompatActivity() {
 
     }
 
-    inner class rank_control {
-        fun show_Rank(context: Context) {
-            viewManager = LinearLayoutManager(context)
-            viewAdapter = RankAdapter(ranklist)
-
-            recyclerView = findViewById<RecyclerView>(R.id.rv_rank).apply {
-                setHasFixedSize(true)
-                layoutManager = viewManager
-                adapter = viewAdapter
-            }
-        }
-    }
+//    inner class rank_control {
+//        fun show_Rank(context: Context) {
+//            viewManager = LinearLayoutManager(context)
+//            viewAdapter = RankAdapter(ranklist)
+//
+//            recyclerView = findViewById<RecyclerView>(R.id.rv_rank).apply {
+//                setHasFixedSize(true)
+//                layoutManager = viewManager
+//                adapter = viewAdapter
+//            }
+//        }
+//    }
 }
 
 

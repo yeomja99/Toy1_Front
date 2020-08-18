@@ -14,39 +14,37 @@
         android:orientation="vertical">
 
         <TextView
-            android:padding="10dp"
             android:id="@+id/tv_cq_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:padding="10dp"
             android:text="귀염지현님의 퀴즈를 만들어 보세요"
-            android:textStyle="bold"
             android:textColor="#ffffff"
             android:textSize="20dp"
-            />
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#ffffff"
             android:gravity="center"
             android:text="랜덤으로 5가지의 질문이 뽑혔어요!"
-            />
+            android:textColor="#ffffff" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#ffffff"
             android:gravity="center"
             android:text="본인만의 답변을 체크하고 친구들에게 공유하세요~!"
-            />
+            android:textColor="#ffffff" />
 
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_create_quiz"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center">
 
     </androidx.recyclerview.widget.RecyclerView>
 
