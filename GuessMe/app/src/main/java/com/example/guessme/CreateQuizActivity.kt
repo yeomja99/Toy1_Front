@@ -21,13 +21,14 @@ class CreateQuizActivity : AppCompatActivity() {
         lateinit var viewManager: RecyclerView.LayoutManager
         val context: Context = this
 
-        for (i in 0 until 5){
-            createQuizList.add(Quiz(1,"퀴즈가 나온다리",1))
-        }
-
-        val adapter = CreateQuizAdapter(context, createQuizList)
-        recyclerView.adapter = adapter
-        recyclerView.layoutManager = LinearLayoutManager(this@CreateQuizActivity)
+        // view 보기 위한 초기화
+//        recyclerView = findViewById<RecyclerView>(R.id.rv_create_quiz)
+//        for (i in 0 until 5){
+//            createQuizList.add(Quiz(1,"퀴즈가 나온다리",1))
+//        }
+//        val adapter = CreateQuizAdapter(context, createQuizList)
+//        recyclerView.adapter = adapter
+//        recyclerView.layoutManager = LinearLayoutManager(this@CreateQuizActivity)
     }
 
 

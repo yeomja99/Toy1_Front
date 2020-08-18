@@ -28,27 +28,25 @@
             android:text="풀고 싶은 퀴즈 주인의 닉네임을 입력하세요"/>
 
         <LinearLayout
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <EditText
+                android:gravity="center"
                 android:id="@+id/search_text"
                 android:layout_width="300dp"
                 android:layout_height="50dp"
-                android:layout_marginLeft="10dp"
                 android:background="#EBEBEB"
-                android:gravity="center"
-                android:text="search"
-                android:textColor="#7D7D7D"
+                android:hint="search"
+                android:textColorHint="#7D7D7D"
                 android:textSize="30dp" />
 
             <Button
                 android:id="@+id/search_enter"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:layout_marginBottom="20dp"
-                android:gravity="center"
                 android:text="enter" />
 
 
