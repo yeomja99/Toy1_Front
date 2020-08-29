@@ -12,18 +12,24 @@
         android:supportsRtl="true"
         android:name=".MasterApplication"
         android:theme="@style/AppTheme">
+      
         <activity android:name=".MasterApplication"></activity>
         <activity android:name=".SignUpActivity" />
         <activity android:name=".SignInActivity">
-            <intent-filter>
+          <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+          </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
 
-        </activity>
+        <activity android:name=".ReadRankActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SearchActivity" />      
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ReadQuizActivity" />
+        <activity android:name=".CreateQuizActivity" />
     </application>
 
 </manifest>
